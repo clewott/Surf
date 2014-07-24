@@ -63,13 +63,36 @@ section h2 {
   font-size: 4em;
   font-weight: normal;
 }
+.little-image {
+  border-radius: 100%;
+}
+.name {
+  color: #083452;
+  font-size: .8em;
+}
+.date {
+  color: grey;
+  font-size: .8em;
+  padding-left: 10px;
+}
+.woah {
+  color: #083452;
+  font-size: 2em;
+  padding-left: 15px;
+  margin-left: 5px;
+  border-left: 1px solid grey;
+}
 .box {
   display: inline-block;
   width: 30%;
-  padding-bottom: 20px;
 }
-.box img span {
-  padding-bottom: 5px;
+.masterbox img {
+  background-color: #083452;
+  margin-bottom: 0px;
+}
+.masterbox span {
+  margin-bottom: 0px;
+  background-color: grey;
 }
 .small-picture {
   border-radius: 100%;
@@ -82,23 +105,35 @@ section h2 {
   vertical-align: top;
   padding-top: 100px;
   margin-left: 0px;
-  text-align: center;
   border: 2px solid red;
 }
-aside h3 {
+.top-aside {
   text-align: center;
+}
+aside h3 {
   color: #083452;
   text-weight: normal;
+  clear: both;
+  padding-top: 20px;
 }
 aside p span a {
   text-decoration: none;
   color: grey;
+  text-align: center;
 }
 aside span a {
   color: grey;
 }
-.mainchangingimages {
+.activity a {
+  float: right;
+  padding-right: 10px;
+}
+.mainchangingimages h2 {
   text-align: center;
+}
+.mainchangingimages h3 {
+  display: inline-block;
+  width: 24.5%;
 }
 .headerchangingimages {
   text-align: center;
@@ -107,22 +142,28 @@ aside span a {
   font-weight: normal;
 }
 .changingimages {
+  background-color: #083452;
+}
+.changingimages img {
   display: inline-block;
-  vertical-align: bottom;
-  height: 300px;
-  width: 300px;
   border: 2px solid red;
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
-.changingimages:hover {
+.changingimages img:hover {
   opacity: 1.0;
   filter: aplha(opacity=100);
 }
-.changingimages span {
-  float: left;
+/*.changingimages h2 {
+  position: relative;
+   bottom: 200px;
+   left: 0;
+   width: 100%;*/
 }
 footer {
+  background-color: #083452;
+}
+.footer {
   text-align: center;
   border: 2px solid red;
   background-color: #083452;
@@ -130,7 +171,8 @@ footer {
   height: 100px;
 }
 .leftfooter {
-  padding: 40px;
+  padding: 18px;
+  background-color: #083452;
   display: inline-block;
   width: 45%;
   border: 2px dotted black;
@@ -138,6 +180,7 @@ footer {
 }
 .rightfooter {
   display: inline-block;
+  background-color: #083452;
   width: 45%;
   font-size: 1em;
   border: 2px dotted black;
