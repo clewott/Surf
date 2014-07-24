@@ -6,27 +6,25 @@ html {
 }
 header {
   height: 500px;
-  border: solid black;
   background-color: #196FB4;
   opacity: 0.6;
   filter: alpha(opacity=40);
 }
 .topbar {
   text-align: center;
-  border: 2px solid red;
 }
 .logoimage {
   display: inline-block;
   width:45%;
-  border: 2px solid red;
+  padding-top: 5px;
 }
 header nav {
   display: inline-block;
   width:45%;
-  border: 2px solid red;
   font-size: 1.5em;
   vertical-align: top;
   text-decoration: none;
+  padding-top: 15px;
 }
 header nav a {
   text-decoration: none;
@@ -39,7 +37,6 @@ header h1 {
   text-align: center;
   font-size: 6.5em;
   margin-bottom: 0px;
-  border: 2px solid red;
   color: white;
   font-weight: normal;
 }
@@ -48,20 +45,17 @@ header h5 {
   text-align: center;
   margin-top: 0px;
   padding-top: 0px;
-  border: 2px solid red;
   font-size: 1em;
   color: #083452;
   font-weight: normal;
 }
 .mainbody {
   border-bottom: 1px solid grey;
-  border: 2px dotted red;
 }
 .mainbody section {
   display: inline-block;
   width: 55%;
   vertical-align: top;
-  border: 2px solid red;
   padding-left: 100px;
   padding-right: 50px;
 }
@@ -93,6 +87,12 @@ section h2 {
   display: inline-block;
   width: 30%;
 }
+.box span {
+  padding: 8px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
 .masterbox img {
   background-color: #083452;
   margin-bottom: 0px;
@@ -112,7 +112,6 @@ section h2 {
   vertical-align: top;
   padding-top: 100px;
   margin-left: 0px;
-  border: 2px solid red;
 }
 .top-aside {
   text-align: center;
@@ -159,7 +158,6 @@ aside span a {
   bottom: 0px;
   left: 0;
   width: 24.4%;
-  border: 2px solid red;
   opacity: 0.2;
   filter: alpha(opacity=40);
 }
@@ -189,7 +187,6 @@ footer {
 }
 .footer {
   text-align: center;
-  border: 2px solid red;
   background-color: #083452;
   color: white;
   height: 100px;
@@ -199,7 +196,6 @@ footer {
   background-color: #083452;
   display: inline-block;
   width: 45%;
-  border: 2px dotted black;
 
 }
 .rightfooter {
@@ -207,7 +203,6 @@ footer {
   background-color: #083452;
   width: 45%;
   font-size: 1em;
-  border: 2px dotted black;
 }
 footer nav a {
   color: white;
