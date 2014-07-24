@@ -2,13 +2,10 @@ html {
   font-family: 'Fira Sans', sans-serif;
 }
 .header {
-  background-image: url("http://www.cygnetcove.ca/wp-content/uploads/2012/06/waves-and-rock.jpg")
+  background-image: url("images/Header-Image.png");
 }
 header {
   height: 500px;
-  background-color: #196FB4;
-  opacity: 0.6;
-  filter: alpha(opacity=40);
 }
 .topbar {
   text-align: center;
@@ -88,9 +85,7 @@ section h2 {
   width: 30%;
 }
 .box span {
-  padding: 8px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  vertical-align: 32%;
 
 }
 .masterbox img {
@@ -198,11 +193,17 @@ footer {
   width: 45%;
 
 }
+.leftfooter span {
+  vertical-align: 70%;
+}
 .rightfooter {
   display: inline-block;
   background-color: #083452;
   width: 45%;
   font-size: 1em;
+}
+.rightfooter a {
+  vertical-align: 70%;
 }
 footer nav a {
   color: white;
