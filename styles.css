@@ -102,6 +102,7 @@ section h2 {
   margin-bottom: 0px;
   background-color: grey;
 }
+
 .small-picture {
   border-radius: 100%;
   margin-top: 0px;
@@ -163,14 +164,15 @@ aside span a {
 }
 .changingimages {
   background-color: #196FB4;
-  margin: -16px;
+  text-align: center;
+  margin: -14px;
 }
 .changingimages a {
   position: relative;
   opacity: .4;
   color: black;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.75em;
 }
 .changingimages a:hover {
   opacity: 1;
@@ -183,6 +185,22 @@ aside span a {
 }
 .changingimages img {
   width: 24.5%;
+}
+.img1 {
+  margin-left: -3px;
+  margin-right: -7px;
+}
+.img2 {
+  margin-right: -7px;
+  min-width: 300px;
+}
+.img3 {
+  margin-right: -7px;
+  min-width: 300px;
+}
+.img4 {
+  margin-right: -7px;
+  min-width: 300px;
 }
 /* .changingimages {
   background-color: #196FB4;
