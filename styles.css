@@ -185,30 +185,70 @@ footer {
 @media all and (max-width: 320px) {
   .header {
     height: 200px;
-    margin-top: -21px;
-    margin-right: -5px; }
-  .header .logoimage {
-    display: block;
-    float: right;
-    clear: both;
-    width: 100%;
-    height: 50px;
-    padding: 0; }
-  .header nav {
-    font-size: 1em;
-    float: left;
-    clear: both;
-    width: 100%; }
-  .header h1 {
-    font-size: 2em; }
-  .header h5 {
-    font-size: 0.75em; }
-  .mainbody h2 {
-    font-size: 1.9em;
-    padding: 0;
-    width: 100%;
-    margin-left: -80px; }
-  .mainbody .little-image {
-    display: none; }
-  .mainbody .name {
-    display: none; } }
+    width: 320px; }
+    .header nav {
+      font-size: 1em;
+      float: left;
+      clear: both;
+      width: 100%; }
+    .header h1 {
+      font-size: 2em;
+      width: 100%;
+      margin: 0; }
+    .header h5 {
+      font-size: 0.75em;
+      width: 320px; }
+    .header .logoimage {
+      display: block;
+      float: right;
+      clear: both;
+      width: 100%;
+      height: 50px;
+      padding: 0; }
+  .mainbody {
+    left: 15%; }
+    .mainbody section {
+      padding: 0;
+      width: 90%;
+      margin-left: 20px; }
+    .mainbody h2 {
+      font-size: 3em;
+      padding: 0;
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 0px; }
+    .mainbody .little-image {
+      display: none; }
+    .mainbody .name {
+      display: none; }
+    .mainbody p {
+      font-size: 0.9em; }
+    .mainbody span a {
+      font-size: 1.25em;
+      margin: 0px 5px; }
+    .mainbody .woah {
+      font-size: 1.5em; }
+    .mainbody .box {
+      width: 10%; }
+      .mainbody .box span {
+        display: none;
+        float: left; }
+    .mainbody aside {
+      width: 100%;
+      padding-bottom: 50px; }
+    .mainbody h3 {
+      margin: 0;
+      padding: 0; }
+    .mainbody .paddleboard {
+      width: 90%;
+      position: relative;
+      left: 20px;
+      max-height: 288px; }
+    .mainbody .activity a {
+      font-size: 1em; }
+    .mainbody .activity-h3 {
+      display: none; }
+    .mainbody .activity-p {
+      display: none; }
+  .mainchangingimages .image-article .headerchangingimages {
+    font-size: 1.8em; } }
