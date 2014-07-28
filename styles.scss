@@ -1,0 +1,281 @@
+$lightblue: #196FB4;
+$darkblue: #083452;
+
+html {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+  background-image: url("images/Header-Image.png");
+  header {
+    height: 500px;
+  }
+    .topbar {
+      text-align: center;
+    }
+    .logoimage {
+      display: inline-block;
+      width:45%;
+      padding-top: 5px;
+    }
+    nav {
+      display: inline-block;
+      width:45%;
+      font-size: 1.5em;
+      vertical-align: top;
+      text-decoration: none;
+      padding-top: 15px;
+    }
+      header nav a {
+        text-decoration: none;
+        color: $darkblue;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    h1 {
+      position: relative;
+      text-align: center;
+      font-size: 6.5em;
+      margin-bottom: 0px;
+      color: white;
+      font-weight: normal;
+    }
+    h5 {
+      position: relative;
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 0px;
+      font-size: 1em;
+      color: $darkblue;
+      font-weight: normal;
+    }
+}
+
+.mainbody {
+  border-bottom: 1px solid grey;
+  section {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+    h2 {
+      color: $darkblue;
+      font-size: 4em;
+      font-weight: normal;
+    }
+    .little-image {
+      border-radius: 100%;
+    }
+      .name {
+        color: $darkblue;
+        font-size: .8em;
+      }
+      .date {
+        color: grey;
+        font-size: .8em;
+        padding-left: 10px;
+      }
+    p {
+      color: grey;
+    }
+    .woah {
+      color: $darkblue;
+      font-size: 2em;
+      padding-left: 15px;
+      margin-left: 5px;
+      border-left: 1px solid grey;
+    }
+  .masterbox img {
+    background-color: $darkblue;
+    margin-bottom: 0px;
+  }
+  .masterbox span {
+    margin-bottom: 0px;
+    background-color: grey;
+  }
+    .box {
+      display: inline-block;
+      width: 30%;
+    }
+    .box span {
+      vertical-align: 32%;
+    }
+  aside {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    padding-top: 100px;
+    margin-left: 0px;
+  }
+    .top-aside {
+      text-align: center;
+    }
+      .small-picture {
+        border-radius: 100%;
+        margin-top: 0px;
+        padding-top: 0px;
+      }
+      h3 {
+        color: $darkblue;
+        text-weight: normal;
+        clear: both;
+        padding-top: 20px;
+      }
+    .paddleboard {
+      text-align: center;
+      background-color: $lightblue;
+      max-height: 314px;
+
+    }
+      .paddleboard img {
+        width: 100%;
+        opacity: .4;
+      }
+    p {
+      color: grey;
+    }
+
+    p span a {
+      text-decoration: none;
+      color: grey;
+      text-align: center;
+    }
+    span a {
+      color: grey;
+    }
+    .activity a {
+      float: right;
+      padding-right: 10px;
+    }
+}
+
+.mainchangingimages {
+  .headerchangingimages {
+    text-align: center;
+    color: $darkblue;
+    font-size: 4em;
+    font-weight: normal;
+  }
+  .changingimages {
+    background-color: $lightblue;
+    text-align: center;
+    margin: -14px;
+  }
+    a {
+      position: relative;
+      opacity: .4;
+      color: black;
+      text-decoration: none;
+      font-size: 1.75em;
+    }
+      .img1 {
+        margin-left: -3px;
+        margin-right: -7px;
+      }
+      .img2 {
+        margin-right: -7px;
+        min-width: 300px;
+      }
+      .img3 {
+        margin-right: -7px;
+        min-width: 300px;
+      }
+      .img4 {
+        margin-right: -7px;
+        min-width: 300px;
+      }
+    a:hover {
+      opacity: 1;
+      color: white;
+    }
+      span {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+      }
+    img {
+    width: 24.5%;
+    }
+}
+
+footer {
+  background-color: $darkblue;
+  .footer {
+    text-align: center;
+    background-color: $darkblue;
+    color: white;
+    height: 100px;
+  }
+    .leftfooter {
+    padding: 18px;
+    background-color: $darkblue;
+    display: inline-block;
+    width: 45%;
+    }
+      span {
+      vertical-align: 70%;
+      }
+    .rightfooter {
+      display: inline-block;
+      background-color: $darkblue;
+      width: 45%;
+      font-size: 1em;
+    }
+      nav a {
+        color: white;
+        text-decoration: none;
+        border-right: 1px solid white;
+        padding-right: 10px;
+      }
+      a {
+        vertical-align: 70%;
+      }
+}
+
+
+@media all and (max-width: 320px) {
+
+.header {
+  height: 200px;
+  margin-top: -21px;
+  margin-right: -5px;
+}
+.header .logoimage {
+  display: block;
+  float: right;
+  clear: both;
+  width: 100%;
+  height: 50px;
+  padding: 0;
+}
+.header nav {
+  font-size: 1em;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+.header h1 {
+  font-size: 2em;
+  }
+.header h5 {
+  font-size: .75em;
+}
+.mainbody h2 {
+  font-size: 1.9em;
+  padding: 0;
+  width: 100%;
+  margin-left: -80px;
+}
+.mainbody .little-image {
+  display: none;
+}
+.mainbody .name {
+  display: none;
+}
+}
