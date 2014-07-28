@@ -338,6 +338,24 @@ footer {
     .headerchangingimages {
       font-size: 1.8em;
     }
+    .changingimages {
+      margin: 0;
+      a {
+        clear: both;
+        width: 320px;
+
+        margin: 0px;
+        img {
+          width: 90%;
+          max-height: 200px;
+
+        }
+      }
+      .img4 {
+        display: none;
+      }
+
+    }
   }
 }
 }
