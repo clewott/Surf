@@ -253,7 +253,8 @@ footer {
   .mainchangingimages .image-article .headerchangingimages {
     font-size: 1.8em; }
   .mainchangingimages .image-article .changingimages {
-    margin: 0; }
+    margin: 0;
+    background-color: white; }
     .mainchangingimages .image-article .changingimages a {
       clear: both;
       width: 320px;
@@ -261,5 +262,33 @@ footer {
       .mainchangingimages .image-article .changingimages a img {
         width: 90%;
         max-height: 200px; }
+    .mainchangingimages .image-article .changingimages .img1 {
+      width: 90%;
+      max-height: 200px;
+      background-color: #196FB4; }
+    .mainchangingimages .image-article .changingimages .img2 {
+      width: 90%;
+      max-height: 200px;
+      background-color: #196FB4; }
+    .mainchangingimages .image-article .changingimages .img3 {
+      width: 90%;
+      max-height: 200px;
+      background-color: #196FB4; }
     .mainchangingimages .image-article .changingimages .img4 {
-      display: none; } }
+      display: none; }
+  footer {
+    width: 320px; }
+    footer .footer {
+      height: 100%;
+      text-align: left; }
+      footer .footer .leftfooter img {
+        clear: right; }
+      footer .footer .leftfooter span {
+        margin: 30px;
+        text-align: center;
+        font-size: 1em;
+        width: 220px;
+        float: left;
+        clear: left; }
+      footer .footer .rightfooter {
+        width: 100%; } }

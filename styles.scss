@@ -340,6 +340,7 @@ footer {
     }
     .changingimages {
       margin: 0;
+      background-color: white;
       a {
         clear: both;
         width: 320px;
@@ -351,10 +352,54 @@ footer {
 
         }
       }
+      .img1 {
+        width: 90%;
+        max-height: 200px;
+        background-color: $lightblue
+      }
+      .img2 {
+        width: 90%;
+        max-height: 200px;
+        background-color: $lightblue
+      }
+      .img3{
+        width: 90%;
+        max-height: 200px;
+        background-color: $lightblue
+      }
       .img4 {
         display: none;
       }
 
+    }
+  }
+}
+footer {
+  width: 320px;
+  .footer {
+    height: 100%;
+    text-align: left;
+    .leftfooter {
+      img {
+        clear: right;
+      }
+      span {
+        margin: 30px;
+        text-align: center;
+        font-size: 1em;
+        width: 220px;
+        float: left;
+        clear: left;
+      }
+
+    }
+    .rightfooter {
+      width: 100%;
+      nav {
+        a {
+
+        }
+      }
     }
   }
 }
