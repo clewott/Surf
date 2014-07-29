@@ -364,17 +364,39 @@ footer {
         width: 90%;
         max-height: 200px;
         margin: 0;
+        span {
+          text-align: left;
+          width: 280px;
+          position: absolute;
+          left: 10px;
+          top: -20px;
+        }
       }
       .img2 {
         width: 90%;
         max-height: 200px;
         margin: 0;
+        span {
+          line-height: 30px;
+          text-align: left;
+          width: 280px;
+          position: absolute;
+          left: 10px;
+          top: -40px;
+        }
 
       }
       .img3{
         width: 90%;
         max-height: 200px;
         margin: 0;
+        span {
+          text-align: left;
+          width: 280px;
+          position: absolute;
+          left: 10px;
+          top: -15px;
+        }
 
       }
       .img4 {

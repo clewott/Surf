@@ -272,14 +272,33 @@ footer {
       width: 90%;
       max-height: 200px;
       margin: 0; }
+      .mainchangingimages .image-article .changingimages .img1 span {
+        text-align: left;
+        width: 280px;
+        position: absolute;
+        left: 10px;
+        top: -20px; }
     .mainchangingimages .image-article .changingimages .img2 {
       width: 90%;
       max-height: 200px;
       margin: 0; }
+      .mainchangingimages .image-article .changingimages .img2 span {
+        line-height: 30px;
+        text-align: left;
+        width: 280px;
+        position: absolute;
+        left: 10px;
+        top: -40px; }
     .mainchangingimages .image-article .changingimages .img3 {
       width: 90%;
       max-height: 200px;
       margin: 0; }
+      .mainchangingimages .image-article .changingimages .img3 span {
+        text-align: left;
+        width: 280px;
+        position: absolute;
+        left: 10px;
+        top: -15px; }
     .mainchangingimages .image-article .changingimages .img4 {
       display: none; }
   footer {
