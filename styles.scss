@@ -282,6 +282,7 @@ footer {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 0px;
+    line-height: 50px;
   }
   .little-image {
     display: none;
@@ -344,7 +345,6 @@ footer {
       a {
         clear: both;
         width: 320px;
-
         margin: 0px;
         img {
           width: 90%;
@@ -382,9 +382,10 @@ footer {
     .leftfooter {
       img {
         clear: right;
+        margin-left: 115px;
       }
       span {
-        margin: 30px;
+        margin: 0px 30px;
         text-align: center;
         font-size: 1em;
         width: 220px;
@@ -394,10 +395,17 @@ footer {
 
     }
     .rightfooter {
-      width: 100%;
+      width: 90%;
+      text-align: center;
       nav {
         a {
-
+          text-align: center;
+        }
+        .Nav3 {
+          border: none;
+        }
+        .Nav4 {
+          border: none;
         }
       }
     }

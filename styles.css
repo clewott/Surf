@@ -216,7 +216,8 @@ footer {
       padding: 0;
       width: 100%;
       margin-top: 20px;
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      line-height: 50px; }
     .mainbody .little-image {
       display: none; }
     .mainbody .name {
@@ -282,13 +283,21 @@ footer {
       height: 100%;
       text-align: left; }
       footer .footer .leftfooter img {
-        clear: right; }
+        clear: right;
+        margin-left: 115px; }
       footer .footer .leftfooter span {
-        margin: 30px;
+        margin: 0px 30px;
         text-align: center;
         font-size: 1em;
         width: 220px;
         float: left;
         clear: left; }
       footer .footer .rightfooter {
-        width: 100%; } }
+        width: 90%;
+        text-align: center; }
+        footer .footer .rightfooter nav a {
+          text-align: center; }
+        footer .footer .rightfooter nav .Nav3 {
+          border: none; }
+        footer .footer .rightfooter nav .Nav4 {
+          border: none; } }
